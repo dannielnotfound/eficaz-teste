@@ -3,11 +3,14 @@
 
 ### Utilizando Laravel Sail na última versão (10.x)
 
-* Inicie o terminal com o alias sail: alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
-* Instale o composer
-* Com o docker desktop aberto, rode: sail up -d
-* Acesse localhost para servir o projeto Laravel
-* Acesse localhost:8080 para servir o phpmyadmin (Login no .ENV)
 
-** Qualquer dúvida ou problemas para rodar o projeto localmente, consultador documentação do Laravel Sail e Docker, ou entrar em contato comigo pelo email: danielriber548@gmail.com ou (18) 996922267
 
+* Instale o composer: composer update
+* Instale o node: npm i
+* Crie um banco de dados com o nome: "eficaz_app" ou personalize no arquivo .ENV
+* Crie um arquivo .ENV - utilizando o .envexample como baso
+* Inicie o servidor com: php artisan migrate
+* Gere a chave da aplicação pela interface web do Laravel
+* Faça as migrações
+
+** Qualquer dúvida ou problema, me contactar: danielriber548@gmail.com ou (18) 996922267
