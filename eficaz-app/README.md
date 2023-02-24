@@ -1,9 +1,7 @@
 # Eficaz Marketing & Tecnologia - TESTE
 ## Teste para desenvolvedor Laravel
 
-### Utilizando Laravel Sail na última versão (10.x)
-
-
+### Utilizando Laravel 10.x
 
 * Instale o composer: composer update
 * Instale o node: npm i
