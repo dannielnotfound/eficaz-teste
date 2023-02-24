@@ -8,7 +8,7 @@
 
     <!-- CSS & JS da aplicação -->
     <script src="js/script.js"></script>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="../css/styles.css">
 
     <!-- Bootstrat 5.3.x-->
@@ -72,7 +72,7 @@
     </div>
   </main>
   <footer>
-    <p>HDC Events &copy; 2020</p>
+    <p>Eficaz Events &copy; 2020</p>
   </footer>
   <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
 </body>
